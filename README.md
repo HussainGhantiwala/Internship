@@ -1,4 +1,6 @@
-# 🧑‍💻 User Management System (React + Express)
+# 🧑‍💻🚀 User Management System (React + Node + Axios + Express + MUI)
+This is a Full-Stack CRUD Application built using React (Frontend) and Express + Axios (Backend).
+The app allows you to Fetch, Edit & Delete Users and provides real-time feedback with Toasts and proper Error Handling.
 
 This is a Full Stack **User Management Application** built using **React (Frontend)** and **Express.js (Backend)**.  
 It allows you to **fetch, edit, and delete users** using the dummy ReqRes API.  
@@ -19,23 +21,12 @@ We also added **Toast notifications**, **Search functionality**, **Error handlin
 ---
 
 ## 📂 Project Structure
-project-root/ 
-├── client/ # React Frontend │ 
-├── public/ │ 
-├── src/ 
-    ||backend/
-    |||index.js
-├── ||components/  
-└── |||User.js  
-└── |||EditUser.js 
-└── ||server/
-└── |||api.js # Axios API functions │ 
-└── package.json 
-├── server/ # Express Backend │ 
-└── index.js │ 
-└── package.json 
-├── README.md 
-└── package.json # Root package for concurrently
+project-root/
+├── backend/            → Express server (API)
+├── frontend/           → React app
+├── package.json        → Combined script to run both frontend & backend
+├── README.md           → Project documentation
+
 ---
 
 ## 🛠️ Setup & Installation
@@ -46,14 +37,14 @@ git clone https://github.com/HussainGhantiwala/Internship.git cd project-root
 
 
 ### 2. Install Dependencies
-npm install
+Run this in the root directory:
+```npm install```
+### Start both Front-end and Backend 
+```npm run both```
+```Frontend: http://localhost:3000```
 
-npm run both
-
-Frontend → http://localhost:3000
-
-Backend → http://localhost:7000
-
+```Backend API: http://localhost:7000/api```
+### Tech Stack ###
 What We Implemented
 Backend (Express.js):
 
