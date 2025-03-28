@@ -38,12 +38,16 @@ git clone https://github.com/HussainGhantiwala/Internship.git cd project-root
 
 ### 2. Install Dependencies
 Run this in the root directory:
-```npm install```
-### Start both Front-end and Backend 
-```npm run both```
-```Frontend: http://localhost:3000```
+<pre> ```npm install```</pre> 
 
-```Backend API: http://localhost:7000/api```
+### Start both Front-end and Backend 
+
+<pre> ```npm run both```</pre> 
+
+<pre> ```Frontend: http://localhost:3000```</pre> 
+
+<pre> ```Backend API: http://localhost:7000/api```</pre> 
+
 ### Tech Stack ###
 What We Implemented
 Backend (Express.js):
